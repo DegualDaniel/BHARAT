@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,200;1,400;1,600&family=Roboto+Mono:ital,wght@0,400;0,700;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none; 
+    transition: .2s linear;  
+    /* color:var(--color);  */
+  }
+  html{ 
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+  }
+  html::-webkit-scrollbar{
+    width: .4rem;
+  }
+  html::-webkit-scrollbar-track{
+    background: transparent;
+  }
+  html::-webkit-scrollbar-thumb{ 
+    background-color: black;
+    border-radius: 5rem;
+  } 
+  body{   
+    background: whitesmoke;  
+    /* font-family: 'font'; */
+    transition: .2s linear;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-family: 'Nunito', sans-serif;  */
+  }
+
+.home{
+    background: url(image/netflix.jpg) ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    /* background-size:contain ; */
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: re; */
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10%;
+    /* background-color: transparent; */
+    /* background-color: red; */
+    align-items: center;
+}
+.logo{
+
+}
+.logo h3{
+  /* font-size: 16px; */
+    font-size: 2rem;
+    color: rgb(229,9,20);
+}
+button{
+
+}
+.btn-3d{
+    position: relative;
+    padding: 10px 15px;
+    color: #fff;
+    /* background-color: #0077cc; */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:  #e50914;
+    font-size: 14px;
+    font-weight: 500;
+
+} 
+.btn-3d:hover{ 
+  transform: scale(1.2);
+}
+
+
+
+/* MAIN-CONTENT */
+
+.main-cont{
+  /* background-color: yellow; */
+  margin: 10rem auto;
+  width: fit-content;
+  text-align: center;
+  color: white;
+  line-height: 3rem
+}
+/* .text1{
+
+} */
+.text1 h1{
+  font-size: 2.9rem;
+  font-weight: bold;
+}
+/* .text1 h4{
+  font-weight: 550;
+  font-size: 1.2rem;
+} */
+form{
+  width: 80%;
+  background-color: rgb(157, 255, 0);
+  margin: 0 auto;
+}
+form input{
+  width: 50%;
+  padding: 20px 10px;
+  /* width: 100%; */
+  background-color: transparent;
+  border: 1px solid gray;
+}
+form ::placeholder{ 
+  font-weight: bold;
+  /* color: rebeccapurple; */
+  /* font-size: 3rem; */
+}
+.btn{
+  /* width: 20%; */
+  padding: 20px 20px;
+  /* font-size: 1.1rem; */
+  /* font-weight: bold; */
+  background-color: #e50914;
+  border: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
